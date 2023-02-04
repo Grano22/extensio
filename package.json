@@ -1,0 +1,33 @@
+{
+  "name": "extensio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "bin": {
+    "extensio": "./scripts/extensio.js"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@types/yargs": "^17.0.20",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cjstoesm": "^2.1.2",
+    "commander": "^10.0.0",
+    "edge-paths": "^3.0.5",
+    "figlet": "^1.5.2",
+    "puppeteer": "^19.6.2",
+    "rollup-plugin-ts": "^3.2.0",
+    "vite-plugin-commonjs": "^0.6.1",
+    "which": "^3.0.0",
+    "y18n": "^5.0.8",
+    "zod": "^3.20.2"
+  }
+}
